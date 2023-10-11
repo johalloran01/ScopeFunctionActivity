@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
             setPadding(5, 10, 10, 0)
             textSize = 22f
         } .apply {
-            text.collection[position].toString()
+            text = collection[position].toString()
         }
     }
 
